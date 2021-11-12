@@ -265,7 +265,7 @@ export default function VideoCall(props) {
             direction="column"
             style={{ height: "100%", width: "100%" }}
           >
-            <Grid item style={{ height: "5%" }}>
+            <Grid item style={{ height: "50px" }}>
               {ready && tracks && (
                 <Controls
                   tracks={tracks}
@@ -285,7 +285,12 @@ export default function VideoCall(props) {
                 />
               )}
             </Grid>
-            <div style={{ background: "cadetblue", height: "95%" }}>
+            <div
+              style={{
+                background: "cadetblue",
+                height: "calc(100% - 50px)",
+              }}
+            >
               <div className="channel-name">
                 {/* Nam Seoul university - {channelName} */}
                 Interview

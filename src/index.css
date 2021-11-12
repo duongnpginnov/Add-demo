@@ -226,7 +226,7 @@ span.anticon.anticon-close.ant-modal-close-icon {
 .control-logo {
   position: absolute;
   right: 10px;
-  top: 0;
+  top: 5px;
 }
 
 .control-logo .ant-image-img {
