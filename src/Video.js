@@ -200,8 +200,9 @@ export default function Video(props) {
                             position: "absolute",
                             top: "10px",
                             left: "50%",
-                            fontSize: "30px",
+                            fontSize: "20px",
                             color: "white",
+                            transform: "translate(-50%, 0)",
                           }}
                         >
                           {user.uid}
@@ -329,8 +330,9 @@ export default function Video(props) {
                               position: "absolute",
                               top: "0",
                               left: "50%",
-                              fontSize: "30px",
+                              fontSize: "20px",
                               color: "white",
+                              transform: "translate(-50%, 0)",
                             }}
                           >
                             {user.uid}
@@ -509,8 +511,9 @@ export default function Video(props) {
                           position: "absolute",
                           top: "10px",
                           left: "50%",
-                          fontSize: "30px",
+                          fontSize: "20px",
                           color: "white",
+                          transform: "translate(-50%, 0)",
                         }}
                       >
                         {user.uid}
@@ -633,8 +636,9 @@ export default function Video(props) {
                             position: "absolute",
                             top: "0",
                             left: "50%",
-                            fontSize: "30px",
+                            fontSize: "20px",
                             color: "white",
+                            transform: "translate(-50%, 0)",
                           }}
                         >
                           {user.uid}
