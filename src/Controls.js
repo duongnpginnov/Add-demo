@@ -272,7 +272,12 @@ export default function Controls(props) {
 
   return (
     <>
-      <Grid container spacing={2} alignItems="center">
+      <Grid
+        container
+        spacing={2}
+        alignItems="center"
+        className="custom-control"
+      >
         <Grid item>
           <Button
             variant="contained"

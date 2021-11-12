@@ -197,7 +197,6 @@ span.anticon.anticon-close.ant-modal-close-icon {
 .result-admin {
   background: cadetblue;
   height: 100%;
-  margin-right: 10px;
 }
 
 .result-admin .result-admin-chart {
@@ -232,4 +231,9 @@ span.anticon.anticon-close.ant-modal-close-icon {
 
 .control-logo .ant-image-img {
   height: 25px;
+}
+
+.custom-control {
+  width: 100% !important;
+  margin: auto !important;
 }
