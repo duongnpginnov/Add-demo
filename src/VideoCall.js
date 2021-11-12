@@ -287,7 +287,8 @@ export default function VideoCall(props) {
             </Grid>
             <div style={{ background: "cadetblue", height: "95%" }}>
               <div className="channel-name">
-                Nam Seoul university - {channelName}
+                {/* Nam Seoul university - {channelName} */}
+                Interview
               </div>
 
               <Grid

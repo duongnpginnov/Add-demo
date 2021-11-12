@@ -197,6 +197,7 @@ span.anticon.anticon-close.ant-modal-close-icon {
 .result-admin {
   background: cadetblue;
   height: 100%;
+  margin-right: 10px;
 }
 
 .result-admin .result-admin-chart {
